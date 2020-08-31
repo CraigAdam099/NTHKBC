@@ -1,0 +1,63 @@
+
+/* Original Css */
+
+    html,
+    body,
+    header,
+    .view {
+      height: 100%;
+    }
+
+    @media (max-width: 740px) {
+      html,
+      body,
+      header,
+      .view {
+        height: 1000px;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+      html,
+      body,
+      header,
+      .view {
+        height: 650px;
+      }
+    }
+    @media (min-width: 800px) and (max-width: 850px) {
+              .navbar:not(.top-nav-collapse) {
+                  background: #1C2331!important;
+              }
+          }
+
+/*original css*/
+.navbar.navbar-dark .breadcrumb .nav-item.active>.nav-link, .navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link {
+	background-color: #ffedff00;
+}
+.text-size {
+	font-size: 1.5rem;
+}
+
+.text-size2 {
+	font-size: 1.5rem;
+}
+
+.btn {
+	background-color: #20ea2a!important;
+}
+
+.pb-4 {
+	padding: 1rem;
+}
+.mt-4, .my-4 {
+	margin-top: 0 !important;
+}
+.mb-4, .my-4{
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+.btn-green {
+	margin-top: 2rem;
+}
